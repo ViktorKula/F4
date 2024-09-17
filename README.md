@@ -3,11 +3,12 @@
 Где отображать документацию API — решать вам.
 У каждого блюда и каждой категории должна быть своя страница: с главной страницы можно перейти на любую из категорий, а из категории — на любой рецепт этой категории.
 
-## Запуск в directory recipes_project 
+## Запуск в directory backend/kitchen 
 
 ### `python manage.py runserver`
+Открывается на [http://localhost:8000](http://localhost:8000).
 
-## Скрипты в directory recipes_frontend
+## Скрипты в directory frontend/kitchen 
 
 В каталоге проекта вы можете запустить:
 
