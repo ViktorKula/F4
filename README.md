@@ -3,7 +3,15 @@
 Где отображать документацию API — решать вам.
 У каждого блюда и каждой категории должна быть своя страница: с главной страницы можно перейти на любую из категорий, а из категории — на любой рецепт этой категории.
 
-## Запуск в directory backend/kitchen 
+## cd backend/kitchen 
+В бэкенде устанавливаем зависимости:
+### `pip install -r requirements.txt`
+
+##  cd frontend/kitchen
+Во фронте устанавлиеваем node_modules:
+### `npm install`
+
+## Запускаем в directory backend/kitchen 
 
 ### `python manage.py runserver`
 Открывается на [http://localhost:8000](http://localhost:8000).
