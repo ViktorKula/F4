@@ -7,10 +7,10 @@ function Header() {
 
       return (
         <header>
-            <button class='some-button'>
+            <button id='some-button'>
                 <Link to='/'> Категории </Link>
             </button>
-            <button class='some-button'>
+            <button id='some-button'>
                 <Link to='/api'> API </Link>
             </button>
 
